@@ -13,7 +13,7 @@ function updateViewBox() {
     document.querySelector('.rect4').setAttribute('y', '235');
     document.querySelector('.rect4').setAttribute('width', '45');
   } else {
-    svgElement.setAttribute('viewBox', '0 0 500 300');
+    svgElement.setAttribute('viewBox', '0 0 500 210');
     document.querySelector('.mask-rect').setAttribute('width', '500');
     document.querySelector('.rect1').setAttribute('x', '205');
     document.querySelector('.rect1').setAttribute('width', '145');
